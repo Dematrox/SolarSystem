@@ -1,0 +1,250 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  }
+
+
+.white {
+  color: rgb(230, 229, 229);
+  background-color: rgba(15, 15, 15, 0.637);
+  height: 32rem;
+}
+
+  /* Estilo Fondo */
+  
+.background-header {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1671613559/solarSystem/cropped-1440-900-957380_lvjcw5.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+
+}
+
+.background-planets {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1671705022/solarSystem/background-planets_1_vpbzje.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-mercury {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1672144436/solarSystem/mercury-5556108_1280_u47vo1.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-venus {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1672144690/solarSystem/wp2248745_lhcnpy.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-earth {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1671611137/solarSystem/earth-1756274_1920_t4lk5f.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-mars {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1672144810/solarSystem/stretched-1440-900-1069249_k3ejm1.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-jupiter {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1672145012/solarSystem/stretched-1440-900-606908_nz9kqk.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-saturn {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1672145250/solarSystem/stretched-1440-900-1233933_trvojc.png);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-uranus {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1672145672/solarSystem/ring-uranus-planet-blue-planet-wallpaper-preview_u3ipys.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-neptune {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1672146608/solarSystem/neptune-planet-space-5k-kk-1280x2120_orhosw.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-moon {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1672195464/solarSystem/stretched-1440-900-74807_lfpnmt.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+.background-otro {
+  min-height: 100vh;
+  background-image: url(https://res.cloudinary.com/dgcuq2caj/image/upload/v1671707344/solarSystem/stretched-1440-900-321911_czywnm.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+}
+
+/* NAV-BAR  */
+
+.div-nav-bar{
+  display: flex;
+  justify-content: center;
+}
+
+.div-nav {
+  background: rgba(102, 102, 102, 0.103);
+  margin: 0 0 0 auto;
+  width: 40%;
+  border-radius: 10px;
+}
+.nav-bar{
+  align-items: center;
+  display: flex;
+  height: 96px;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-bar-link {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(75, 64, 64);
+}
+/* / Logo  */
+
+.App-logo {
+  height: 7vmin;
+  margin: 15px;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Cards planetas  */ 
+.text-title-card {
+  display: flex;
+  justify-content: end;
+}
+
+.text-end {
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.text-end-describ {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.card-title {
+  color: rgb(248, 250, 249);
+}
+
+
+/* Satellites card */
+
+.moon-card {
+  background-color: rgba(32, 32, 32, 0.473);
+  padding: 1rem;
+}
+
+.moons-link {
+  text-decoration: none;
+}
+
+/* Estilo main card */
+
+.main-card {
+  background-color: rgba(56, 55, 55, 0.349);
+  height: 38rem;
+  margin: 6rem;
+}
+
+.group {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+/* // Otro // */
+
+.text-otro {
+  display: flex;
+  justify-content: end;
+  color: rgb(243, 243, 243);
+  padding-top: 3.5rem;
+  padding-right: 10rem;
+}
+
+.proximamente {
+  width: 12rem;
+  height: 15rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 8rem;
+  margin-left: 70rem;
+  padding: 2rem;
+  border-radius: 10%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(61, 61, 61, 0.582);
+}
+
+.btn-otro {
+  display: flex;
+  margin-left: 3rem;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+}
+
+.hover:hover {-webkit-transform:scale(1);transform:scale(1.06);
+  overflow:hidden;}
